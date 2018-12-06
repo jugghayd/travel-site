@@ -5,3 +5,4 @@ gulp.dest() -- where to place the water once it's done running through the pipes
 
 require('./gulp/tasks/styles');
 require('./gulp/tasks/watch');
+require('./gulp/tasks/sprites');
