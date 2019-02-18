@@ -1,22 +1,3 @@
-/*        Section 4, lecture 12
-$mainBlue: #2f5572;
-body{
-  color:$mainBlue;
-  padding:25px;
-  margin:10px;
-  columns: 300px 2;
-}
-.box {
-  a {
-    display:block;
-    padding:10px;
-    }
-}
-*/
-
-/**************************************************/
-
-/* Section 5, Lecture 13 */
 @import "normalize.css";
 @import "base/_variables";
 @import "base/_mixins";
@@ -33,3 +14,5 @@ body{
 @import "modules/_testimonial";
 @import "modules/_sprite";
 @import "modules/_site-footer";
+@import "modules/_site-header";
+@import "modules/_primary-nav";
