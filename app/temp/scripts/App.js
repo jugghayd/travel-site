@@ -10807,7 +10807,7 @@
 	    this.headerLinks = (0, _jquery2.default)(".primary-nav a");
 	    this.createPageSectionWaypoints();
 	    this.addSmoothScrolling();
-	    this.freshWaypoints();
+	    this.refreshWaypoints();
 	  }
 
 	  _createClass(StickyHeader, [{
@@ -10864,7 +10864,7 @@
 	              (0, _jquery2.default)(matchingHeaderLink).addClass("is-current-link");
 	            }
 	          },
-	          offset: "-40%%"
+	          offset: "-40%"
 	        });
 	      });
 	    }
